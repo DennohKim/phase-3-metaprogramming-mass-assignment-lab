@@ -11,7 +11,7 @@ class Person
   end
 end
 
-avi = {
+avi_attributes = {
         name: "Avi",
         birthday: "01/29/1984",
         hair_color: "brown",
@@ -27,4 +27,14 @@ avi = {
         pant_width: "32"
 }
 
-avi = Person.new(avi)
+avi = Person.new(avi_attributes)
+
+spencer_attributes =  {
+  name: "Spencer",
+  hair_color: "N/A",
+  height: "medium",
+  weight: "good",
+  handed: "righty"
+}
+
+spencer = Person.new(spencer_attributes)
